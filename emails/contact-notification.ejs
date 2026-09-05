@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="supported-color-schemes" content="dark light" />
+  <title>New Contact Message</title>
+  <style>
+    body, table, td { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    body { margin: 0; padding: 0; background-color: #050b18; }
+    table { border-collapse: collapse; }
+    a { text-decoration: none; }
+    @media screen and (max-width: 620px) {
+      .email-container { width: 100% !important; }
+      .px-mobile { padding-left: 24px !important; padding-right: 24px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#050b18;">
+
+  <div style="display:none; max-height:0; max-width:0; overflow:hidden; opacity:0; mso-hide:all;">
+    New message from <%= name %>: <%= subject %>
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#050b18;">
+    <tr>
+      <td align="center" style="padding: 48px 16px;">
+        <table role="presentation" class="email-container" width="560" cellpadding="0" cellspacing="0" border="0" style="width:560px; max-width:560px;">
+
+          <!-- Accent bar -->
+          <tr>
+            <td height="4" bgcolor="#00d2ff" style="background-image: linear-gradient(90deg, #00d2ff, #a855f7); border-radius:20px 20px 0 0; font-size:0; line-height:0;">&nbsp;</td>
+          </tr>
+
+          <!-- Card -->
+          <tr>
+            <td style="background-color:#0a1628; border:1px solid #16264a; border-top:none; border-radius:0 0 20px 20px; padding: 40px 36px;" class="px-mobile">
+
+              <!-- Wordmark -->
+              <p style="margin:0 0 32px; font-family: Arial, sans-serif; font-size:14px; font-weight:700; color:#00d2ff;">Usama Asif</p>
+
+              <p style="margin:0 0 8px; font-family: 'Courier New', monospace; font-size:11px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:#64748b;">New Inquiry</p>
+              <h1 style="margin:0 0 28px; font-family: Arial, sans-serif; font-size:22px; line-height:1.35; font-weight:800; color:#ffffff;">You&rsquo;ve got a new project inquiry</h1>
+
+              <!-- Details -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:26px;">
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #16264a; font-family: Arial, sans-serif; font-size:13px; color:#64748b;" width="90">Name</td>
+                  <td style="padding:12px 0; border-bottom:1px solid #16264a; font-family: Arial, sans-serif; font-size:14px; color:#e2e8f0; font-weight:600;"><%= name %></td>
+                </tr>
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #16264a; font-family: Arial, sans-serif; font-size:13px; color:#64748b;">Email</td>
+                  <td style="padding:12px 0; border-bottom:1px solid #16264a; font-family: Arial, sans-serif; font-size:14px;"><a href="mailto:<%= email %>" style="color:#00d2ff; font-weight:600;"><%= email %></a></td>
+                </tr>
+                <tr>
+                  <td style="padding:12px 0; font-family: Arial, sans-serif; font-size:13px; color:#64748b;">Subject</td>
+                  <td style="padding:12px 0; font-family: Arial, sans-serif; font-size:14px; color:#e2e8f0; font-weight:600;"><%= subject %></td>
+                </tr>
+              </table>
+
+              <!-- Message -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-left:2px solid #00d2ff; margin-bottom:32px;">
+                <tr>
+                  <td style="padding:2px 0 2px 18px; font-family: Arial, sans-serif; font-size:14px; line-height:1.7; color:#cbd5e1;">
+                    <%- messageHtml %>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- CTA -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" bgcolor="#00d2ff" style="border-radius:8px;">
+                    <a href="mailto:<%= email %>?subject=<%= replySubject %>" target="_blank" style="display:inline-block; padding:13px 26px; font-family: Arial, sans-serif; font-size:14px; font-weight:700; color:#04101f;">
+                      Reply to <%= name %>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:36px 0 0; font-family: Arial, sans-serif; font-size:12px; line-height:1.6; color:#5b6b89;">
+                Received <%= submittedAt %> via your portfolio contact form.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" style="padding: 20px 16px 0;">
+              <p style="margin:0; font-family: Arial, sans-serif; font-size:11px; color:#3d4d6b;">&copy; <%= year %> Usama Asif</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

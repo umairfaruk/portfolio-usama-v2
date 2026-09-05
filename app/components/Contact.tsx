@@ -15,6 +15,7 @@ export default function Contact() {
   const [form, setForm]       = useState({ name: '', email: '', subject: '', message: '' })
   const [sending, setSending] = useState(false)
   const [sent, setSent]       = useState(false)
+  const [error, setError]     = useState('')
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -28,10 +29,24 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSending(true)
-    await new Promise((r) => setTimeout(r, 1500))
-    setSending(false)
-    setSent(true)
-    setForm({ name: '', email: '', subject: '', message: '' })
+    setError('')
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+
+      if (!res.ok) throw new Error('Failed to send')
+
+      setSent(true)
+      setForm({ name: '', email: '', subject: '', message: '' })
+    } catch {
+      setError('Something went wrong. Please try again or email me directly.')
+    } finally {
+      setSending(false)
+    }
   }
 
   const inputClass =
@@ -172,6 +187,10 @@ export default function Contact() {
                     className={`${inputClass} resize-none`}
                   />
                 </div>
+
+                {error && (
+                  <p className="text-red-400 text-sm text-center -mb-1">{error}</p>
+                )}
 
                 <button
                   type="submit" disabled={sending}
