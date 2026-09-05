@@ -1,0 +1,76 @@
+USAMA ASIF 
+Date of birth: 22/5/2001 Nationality: Pakistani Gender: Male  Phone number: 
+(+92) 3127266295 (Mobile)  Email address: usamaasif7877@gmail.com  
+WEB DEVELOPER (FREELANCE) – 15/1/2026 – Current 
+•Building and maintaining client websites based on specific requirements
+•Managing website deployment, hosting, and domain configuration
+•Collaborating with clients to understand project needs and deliver customized solutions
+WEB DEVELOPER – TECHNIC MENTORS – 4/11/2024 – 20/8/2025 – GUJRANWALA, PAKISTAN 
+•Developed and optimized responsive web applications using ReactJS and NextJS.
+•Assisted in designing and implementing RESTful APIs to connect front-end and back-end systems.
+•Integrated AI models for image generation and chatbot systems.
+•Improved performance, scalability, and code quality through reviews and best practices.
+MERN STACK INTERN – BUSINESS INCUBATION CENTRE (BIC) – 1/3/2024 – 15/7/2024 – GUJRAT, PAKISTAN 
+•Collaborated with senior developers to debug, test, and deploy new features.
+•Worked with version control systems (Git/GitHub) to manage code and track changes.
+•Participated in daily stand-up meetings and contributed to agile development processes.
+•Optimized application performance and improved user experience.
+14/9/2020 – 14/8/2024 Pakistan 
+BS IN COMPUTER SCIENCE University of Gujrat 
+The major modules I studied during this degree are:
+•Artificial Intelligence & Machine Learning
+•Parallel and Distributed Computing
+•Data Structures and Algorithms
+•Web Development & Information Security
+Websitehttps://uog.edu.pk Final grade3.15 / 4.00 Level in EQFEQF level 6 
+3/4/2018 – 9/6/2020 Pakistan 
+INTERMEDIATE IN PRE-ENGINEERING Govt. Zamindar Postgraduate college 
+The major modules I studied during this course are:
+•Physics
+•Chemistry
+•Mathematics
+Websitehttps://zamindarcollege.edu.pk Final grade72.27% Level in EQFEQF level 4 
+7/2/2015 – 8/2/2017 Pakistan 
+MATRIC IN SCIENCE Shaukat Model High School 
+The major modules I studied during this course are:
+WORK EXPERIENCE
+EDUCATION AND TRAINING
+•Physics
+•Chemistry
+•Biology
+•Mathematics
+Final grade81.54% Level in EQFEQF level 2 
+Mother tongue(s): URDU 
+Other language(s):  
+UNDERSTANDING SPEAKING WRITING
+Listening Reading Spoken productionSpoken interaction
+ENGLISH B2 B2 B2 B2 B2
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user 
+Competitive Programming 
+Enhancing strategic thinking and problem-solving skills.
+Tech Interests 
+Interested in technology and emerging innovations.
+Video games 
+Enjoy playing video games and exploring new mechanics.
+Udemy, 7/10/2025 
+Node with React: Build & Deploy a Fullstack Web Application 
+Link https://www.udemy.com/certificate/UC-8c1fef3e-bba5-4efe-ad45-5a5ceab879f5/ 
+Technical Skills 
+•Programming Languages: JavaScript (ES6+), TypeScript, Python, C++.
+•AI & Machine Learning: NumPy, Pandas, Supervised & Unsupervised Learning, Neural Networks, OpenCV.
+•Web Development: React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Web Sockets.
+•Security & Auth: JWT (JSON Web Tokens), OAuth.
+Projects 
+•Editro (Final Year Project): AI-powered image editing website
+•E-Commerce Website: React.js & Node.js with Stripe secure payments
+•Solatis AI: Meeting & communication platform with Next.js, TypeScript, Shadcn
+Soft Skills 
+•Adaptability
+•Problem-Solving
+•Effective Communication
+•Code Review & Feedback
+LANGUAGE SKILLS 
+HOBBIES AND INTERESTS 
+CERTIFICATIONS 
+PROGRAMMING SKILLS 
+COMMUNICATION AND INTERPERSONAL SKILLS 

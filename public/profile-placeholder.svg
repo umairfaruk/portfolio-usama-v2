@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" fill="#0f1f3d"/>
+  <!-- Background gradient circles -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Body silhouette -->
+  <circle cx="100" cy="78" r="34" fill="#1e3a5f"/>
+  <ellipse cx="100" cy="168" rx="55" ry="42" fill="#1e3a5f"/>
+  <!-- Subtle glow overlay -->
+  <circle cx="100" cy="100" r="98" fill="url(#glow)" opacity="0.35"/>
+  <!-- Monogram -->
+  <text x="100" y="88" text-anchor="middle" dominant-baseline="middle"
+    font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#00d2ff" opacity="0.9">
+    U
+  </text>
+  <!-- Label -->
+  <text x="100" y="155" text-anchor="middle" dominant-baseline="middle"
+    font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">
+    Add your photo
+  </text>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#050b18"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
